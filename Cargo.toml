@@ -1,0 +1,12 @@
+[package]
+name = "keen-emu"
+version = "0.0.1"
+edition = "2021"
+description = "Emulator for Enshrouded's Keen online backend (eonlinedb auth + matchmaking), for LAN/offline co-op. RE'd: libsodium sealed-box request + Ed25519-signed response, pinned keys injected via --keenonline-server-data-file."
+
+[dependencies]
+dryoc = "0.7"
+base64 = "0.22"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+hex = "0.4"

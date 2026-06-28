@@ -1,0 +1,29 @@
+LoginResponse  (5 fields)
+  sessionId: u32[1]
+  sessionExpiry: u64[1]
+  authenticationServerLoginData: AuthenticationServerLoginData
+        AuthenticationServerLoginData  (6 fields)
+          accountId: u64[1]
+          permissionMask: u8[1]
+          acceptedTerms: u32[1]
+          authenticationCode: AuthenticationCode[1]
+                AuthenticationCode  (2 fields)
+                  timestamp: u64[1]
+                  signature: u8[]
+          matchmakingServer: ServerEntry
+                ServerEntry  (5 fields)
+                  ip4Address: u32[1]
+                  port: u16[1]
+                  publicEncryptionKey: u8[]
+                  publicSignatureKey: u8[]
+                  token: u8[]
+          baseSharingServer: ServerEntry
+                ServerEntry  (5 fields)
+                  ip4Address: u32[1]
+                  port: u16[1]
+                  publicEncryptionKey: u8[]
+                  publicSignatureKey: u8[]
+                  token: u8[]
+  autonomyTimeInMins: u8
+  publicPort: u16
+
