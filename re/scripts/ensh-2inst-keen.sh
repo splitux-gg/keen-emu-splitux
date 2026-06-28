@@ -9,7 +9,7 @@ BASE_PFX=/mnt/games/Enshrouded.v0.9.1.2/wine
 PROTON=/mnt/games/home/Steam/compatibilitytools.d/GE-Proton10-34
 GSC="$HOME/.local/share/splitux/bin/gamescope-splitux"
 EXP_API="$HOME/.local/share/splitux/goldberg/win/steam_api64.dll"
-DATAFILE='Z:\home\alphasigmachad\Code\keen-emu\keenonline-emu.json'
+DATAFILE='Z:\home\alphasigmachad\Code\keen-emu-splitux\keenonline-emu.json'
 SCRATCH=/tmp/splitux-together-bench/ensh-2inst-keen
 W=1280; H=720; FPS=30
 export LIBVA_DRIVER_NAME=radeonsi
